@@ -1,4 +1,5 @@
 import { AiOutlineInfoCircle } from "react-icons/ai";
+import PlayButton from "./PlayButton";
 
 const Billboard = () => {
   return (
@@ -50,7 +51,8 @@ const Billboard = () => {
           грабежам грузовиков, совершаемым прямо на ходу.
         </p>
         <div className="flex flex-row items-center mt-3 md:mt-4 gap-3">
-          <button
+          <PlayButton />
+          {/* <button
             className="
                 bg-white/50
                 text-white
@@ -72,7 +74,7 @@ const Billboard = () => {
           >
             <AiOutlineInfoCircle className="mr-1" />
             More Info
-          </button>
+          </button> */}
         </div>
       </div>
     </div>

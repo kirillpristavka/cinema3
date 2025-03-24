@@ -1,6 +1,15 @@
+"use client";
+
+import { useRouter } from "next/navigation";
+
 const MovieCard = () => {
+  const router = useRouter();
+
   return (
-    <div className="group bg-zinc-900 col-span relative h-[12vw]">
+    <div
+      onClick={() => router.push("/movie")}
+      className="group bg-zinc-900 col-span relative h-[12vw]"
+    >
       <img
         className="
             cursor-pointer
