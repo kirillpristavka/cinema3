@@ -12,8 +12,10 @@ const PlayButton = () => {
       className="
         bg-white
         rounded-md
-        py-1 md:py-2
-        px-2 md:px-4
+        py-1
+        md:py-2
+        px-2
+        md:px-4
         w-auto
         text-xs lg:text-lg
         font-semibold
