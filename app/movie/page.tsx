@@ -31,7 +31,7 @@ const Movie = () => {
         autoPlay
         controls
         className="h-full w-full"
-        src="/films/forsag1.mp4"
+        src="films/forsag1.mp4"
       ></video>
     </div>
   );

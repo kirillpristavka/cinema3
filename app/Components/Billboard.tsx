@@ -1,5 +1,6 @@
 import { AiOutlineInfoCircle } from "react-icons/ai";
 import PlayButton from "./PlayButton";
+import { BsFillPlayFill } from "react-icons/bs";
 
 const Billboard = () => {
   return (
@@ -16,7 +17,7 @@ const Billboard = () => {
         loop
         src="/trailers/forsag1.mp4"
       ></video>
-      <div className="absolute top-[30%] md:top-[40%] ml-4 md:ml-16">
+      <div className="absolute top-[50%] ml-16">
         <p
           className="
             text-white
@@ -34,13 +35,12 @@ const Billboard = () => {
         <p
           className="
             text-white
-            text-[8px]
-            md:text-lg
+            lg:text-lg
+            sm:text-sm
+            xs:text-xs
             mt-3
             md:mt-8
             w-[90%]
-            md:w-[80%]
-            lg:w-[50%]
             drop-shadow-xl
         "
         >
@@ -52,7 +52,7 @@ const Billboard = () => {
         </p>
         <div className="flex flex-row items-center mt-3 md:mt-4 gap-3">
           <PlayButton />
-          {/* <button
+          <button
             className="
                 bg-white/50
                 text-white
@@ -74,7 +74,7 @@ const Billboard = () => {
           >
             <AiOutlineInfoCircle className="mr-1" />
             More Info
-          </button> */}
+          </button>
         </div>
       </div>
     </div>

@@ -8,7 +8,7 @@ const PlayButton = () => {
 
   return (
     <button
-      onClick={() => router.push("/movie")}
+      onClick={() => router.push("/films/forsag1.mp4")}
       className="
         bg-white
         rounded-md

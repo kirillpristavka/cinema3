@@ -7,7 +7,7 @@ const MovieCard = () => {
 
   return (
     <div
-      onClick={() => router.push("/movie")}
+      onClick={() => router.push("/")}
       className="group bg-zinc-900 col-span relative h-[12vw]"
     >
       <img
