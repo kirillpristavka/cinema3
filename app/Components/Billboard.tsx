@@ -16,15 +16,13 @@ const Billboard = () => {
         loop
         src="/trailers/forsag1.mp4"
       ></video>
-      <div className="absolute top-[50%] lg:top-[40%] ml-4 lg:ml-16">
+      <div className="absolute top-[40%] ml-16">
         <p
           className="
             text-white
-            text-xl
-            md:text-5xl
+            text-6xl
             h-full
             w-[50%]
-            lg:text-6xl
             font-bold
             drop-shadow-xl
         "
@@ -34,14 +32,9 @@ const Billboard = () => {
         <p
           className="
             text-white
-            lg:text-lg
-            sm:text-sm
-            text-[8px]
-            mt-3
-            md:mt-8
-            w-[90%]
-            md:w-[80%]
-            lg:w-[50%]
+            text-lg
+            mt-8
+            w-[50%]
             drop-shadow-xl
         "
         >
@@ -56,13 +49,10 @@ const Billboard = () => {
             className="
                 bg-white
                 rounded-md
-                py-1
-                md:py-2
-                px-2
-                md:px-4
+                py-2
+                px-4
                 w-auto
-                text-xs
-                lg:text-lg
+                text-lg
                 font-semibold
                 flex
                 flex-row
@@ -80,13 +70,10 @@ const Billboard = () => {
                 bg-white/50
                 text-white
                 rounded-md
-                py-1
-                md:py-2
-                px-2
-                md:px-4
+                py-2
+                px-4
                 w-auto
-                text-xs
-                lg:text-lg
+                text-lg
                 font-semibold
                 flex
                 flex-row
