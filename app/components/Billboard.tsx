@@ -29,7 +29,7 @@ const Billboard = () => {
           loop
           src={data?.trailerUrl}
         ></video>
-        <div className="absolute top-[40%] sm:top-[50%] lg:top-[40%] xl:top-[50%] ml-4 md:ml-8 lg:ml-13.5">
+        <div className="absolute top-[40%] xs:top-[50%] sm:top-[60%] lg:top-[50%] ml-4 md:ml-8 lg:ml-13.5">
           <p
             className="
               text-white
@@ -48,8 +48,7 @@ const Billboard = () => {
           <p
             className="
               text-white
-              text-[7px]
-              xs:text-[8px]
+              text-[8px]
               sm:text-xs
               md:text-sm
               lg:text-lg
@@ -59,6 +58,12 @@ const Billboard = () => {
               md:w-[80%]
               lg:w-[60%]
               drop-shadow-xl
+              line-clamp-1
+              xs:line-clamp-2
+              sm:line-clamp-3
+              lg:line-clamp-4
+              xl:line-clamp-5
+              2xl:line-clamp-6
           "
           >
             {data?.description}
