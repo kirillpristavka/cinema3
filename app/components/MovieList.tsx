@@ -20,7 +20,7 @@ const MovieList = ({
         <p className="text-white text-3xl lg:text-5xl font-semibold mb-4">
           {title}
         </p>
-        <div className="grid xs:grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2">
           {data.map((movie) => (
             <MovieCard key={movie.id} data={movie} />
           ))}

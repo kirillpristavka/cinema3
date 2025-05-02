@@ -20,7 +20,7 @@ const Billboard = () => {
         <video
           className="
               w-full
-              h-[56.25vw]
+              h-[56.25vw]              
               object-cover
               brightness-[60%]
           "
@@ -48,7 +48,8 @@ const Billboard = () => {
           <p
             className="
               text-white
-              text-[8px]
+              text-[7px]
+              xs:text-[8px]
               sm:text-xs
               md:text-sm
               lg:text-lg
