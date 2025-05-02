@@ -93,8 +93,7 @@ const InfoModal = ({
                                 h-10
                                 w-10
                                 rounded-full
-                                bg-black
-                                bg-opacity-70
+                                bg-black/70
                                 flex
                                 items-center
                                 justify-center
@@ -119,13 +118,13 @@ const InfoModal = ({
                         </div>
                     </div>
                     <div className="px-12 py-8">
-                        <p className="text-white text-lg mb-4">
+                        <p className="text-white text-xs sm:text-sm md:text-md lg:text-lg mb-4">
                             {data?.duration}
                         </p>
-                        <p className="text-white text-lg mb-4">
+                        <p className="text-white text-xs sm:text-sm md:text-md lg:text-lg mb-4">
                             {data?.genre}
                         </p>
-                        <p className="text-white text-lg">
+                        <p className="text-white text-xs sm:text-sm md:text-md lg:text-lg">
                             {data?.description}
                         </p>
                     </div>
